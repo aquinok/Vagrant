@@ -1,0 +1,35 @@
+---
+configs:
+    use: 'centos7'
+    wheezy:
+        dist: 'wheezy'
+        hostname: 'wheezy.example.com'
+        public_ip: '192.168.1.115'
+        guest: '22'
+        host: '1225'
+        cpu: '1'
+        memory: '1024'
+    jessie:
+        dist: 'jessie'
+        hostname: 'jessie.example.com'
+        public_ip: '192.168.1.116'
+        guest: '22'
+        host: '1226'
+        cpu: '1'
+        memory: '1024'
+    centos6:
+        dist: 'centos6'
+        hostname: 'centos6.example.com'
+        public_ip: '192.168.1.117'
+        guest: '22'
+        host: '1227'
+        cpu: '1'
+        memory: '1024'
+    centos7:
+        dist: 'centos7'
+        hostname: 'centos7.example.com'
+        public_ip: '192.168.1.118'
+        guest: '22'
+        host: '1228'
+        cpu: '1'
+        memory: '1024'
